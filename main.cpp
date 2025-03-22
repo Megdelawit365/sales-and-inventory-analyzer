@@ -26,7 +26,7 @@ int main() {
 	auto copyOfTotalSalesAmount = totalSalesAmount;
 	decltype(initialInventoryQuantity) copyOfInitialInventoryQuantity = 0;
 
-	const double taxRate = 0.2;
+	const double taxRate = 0.1;
 
 
 	cout << "Enter product name: "<<endl;
