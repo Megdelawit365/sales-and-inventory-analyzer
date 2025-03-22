@@ -16,6 +16,13 @@ int main() {
 	float totalSalesAmount =0;
 	string inventoryStatus;
 
+	//different initialization methods
+	string productOne;
+	productOne = "Shoes";
+	int categoryOne = 3;
+	float priceOne{500.00};
+	
+	
 	auto copyOfTotalSalesAmount = totalSalesAmount;
 	decltype(initialInventoryQuantity) copyOfInitialInventoryQuantity = 0;
 
@@ -35,6 +42,7 @@ int main() {
 
 	newInventory = initialInventoryQuantity;
 	newInventory -= numberOfItemsSold;
+
 	totalSalesAmount = numberOfItemsSold * productPricePerUnit;
 
 	copyOfTotalSalesAmount = totalSalesAmount;
